@@ -9,8 +9,8 @@ from sklearn.cluster import KMeans
 from sklearn.metrics import accuracy_score, mean_absolute_error
 
 # Streamlit UI Config
-st.set_page_config(page_title="AI Data Visualizer", layout="wide")
-st.title("📊 AI-Powered Data Visualizer")
+st.set_page_config(page_title="Data Viz", layout="wide")
+st.title("📊 Data Viz")
 st.markdown("Upload your dataset, choose an algorithm, and explore insights!")
 
 # File Upload
